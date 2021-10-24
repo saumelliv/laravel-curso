@@ -17,3 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('send', [\App\Http\Controllers\FormController::class, 'send'])->name('send');
+Route::post('send', [\App\Http\Controllers\FormController::class, 'form'])->name('send.post');

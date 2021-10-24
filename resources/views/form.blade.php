@@ -20,7 +20,7 @@
 </head>
 <body class="antialiased">
 <div style="margin: 10%">
-    <form method="post" action="{!! route('send') !!}">
+    <form method="post" action="{!! route('send.post') !!}">
         <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"

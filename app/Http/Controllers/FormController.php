@@ -18,4 +18,9 @@ class FormController extends Controller
             dd($e->getMessage());
         }
     }
+
+    public function form(Request $request)
+    {
+        return "Formulario enviado";
+    }
 }
