@@ -16,5 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('send', [\App\Http\Controllers\FormController::class, 'send'])->name('send');
+Route::view('/form','form');
 Route::post('send', [\App\Http\Controllers\FormController::class, 'form'])->name('send.post');
